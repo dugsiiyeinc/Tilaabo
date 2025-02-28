@@ -1,0 +1,90 @@
+/* Responsive */
+@media (max-width: 428px) {
+  /*  */
+
+  .logo {
+    display: none;
+  }
+
+  #important-tasks {
+    display: none;
+  }
+
+  .task-box {
+    display: none !important;
+  }
+
+  .open-bar-icon {
+    display: block !important;
+    right: -10px !important;
+  }
+
+  .close-bar-icon {
+    display: none;
+  }
+
+  .bottom-dash {
+    flex-direction: column !important;
+  }
+
+  .todo {
+    width: 100% !important;
+  }
+
+  /* .side-bar {
+    display: none;
+  } */
+  /* 
+  .open-bar-icon {
+    display: flex;
+  }
+
+  #important-tasks {
+    display: none;
+  } */
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+  .bottom-dash {
+    flex-wrap: wrap;
+  }
+
+  .todo {
+    width: 49% !important;
+  }
+}
+
+@media (min-width: 827px) and (max-width: 980px) {
+  #quote {
+    width: 200px !important;
+  }
+
+  /* .timer-container {
+    width: 260px !important;
+    background-color: green;
+  } */
+
+  .pomodore-timer {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* #quote {
+    flex: 1 !important;
+  } */
+
+  /* .pomodore-timer {
+    flex: 1;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 846px) {
+  .bottom-dash {
+    flex-wrap: wrap;
+  }
+
+  .todo {
+    width: 49% !important;
+  }
+}
