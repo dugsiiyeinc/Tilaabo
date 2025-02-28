@@ -37,7 +37,7 @@ Tilaabo provides an intuitive task manager, a structured project tracker, and a 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tilaabo.git
+git clone https://github.com/cabdulbasidm/tilaabo.git
 cd tilaabo
 ```
 
