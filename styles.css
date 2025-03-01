@@ -8,6 +8,107 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  background-color: #cae8d9;
+  color: #333;
+
+  /* width: 100%; */
+}
+
+.container {
+  padding: 1.2rem;
+}
+
+.logo-name {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: "Madimi One", sans-serif;
+}
+
+.content {
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1rem auto;
+}
+
+.heading {
+  font-size: 3.8rem;
+  text-align: center;
+  line-height: 1.05;
+
+  margin-bottom: 1.6rem;
+}
+
+.desc {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: center;
+
+  margin-bottom: 4rem;
+}
+
+#try-free {
+  /* display: inline-block; */
+  padding: 0.8rem 1.6rem;
+  border: none;
+  background: none;
+  background-color: #37b24d;
+  border-radius: 8px;
+
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #eee;
+  margin-bottom: 1.2rem;
+
+  transition: 0.3s ease;
+}
+
+#try-free:link {
+  text-decoration: none;
+}
+
+#try-free:hover {
+  background-color: #2b8a3e;
+}
+
+.img {
+  /* max-width: 820px; */
+  padding: 0 5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  /* margin-left: 10%; */
+  /* transform: translateX(-50%); */
+
+  margin-bottom: 3rem;
+
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+
+.footer {
+  /* width: 100vw; */
+  border-top: 1px solid black;
+  padding-bottom: 2rem;
+  padding-top: 0.8rem;
+  padding-right: 1.2rem;
+
+  text-align: end;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 /* Responsive */

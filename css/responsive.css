@@ -31,18 +31,43 @@
     width: 100% !important;
   }
 
-  /* .side-bar {
-    display: none;
-  } */
-  /* 
-  .open-bar-icon {
-    display: flex;
+  .logo-name {
+    font-size: 3rem !important;
+    font-family: "Madimi One", sans-serif;
   }
 
-  #important-tasks {
-    display: none;
-  } */
+  .content {
+    max-width: 420px !important;
+    margin: 32px auto !important;
+
+    padding: 0 12px;
+  }
+
+  .heading {
+    font-size: 3rem !important;
+  }
+
+  .desc {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+
+  #try-free {
+    /* display: inline-block; */
+    padding: 1.3rem 2.6rem !important;
+  }
+
+  .img {
+    padding: 0 1rem !important;
+  }
+
+  .copyright {
+    font-size: 0.9rem !important;
+    line-height: 1.4;
+  }
 }
+/* 
+428 - 838 */
 
 @media (min-width: 430px) and (max-width: 768px) {
   .bottom-dash {
@@ -51,6 +76,31 @@
 
   .todo {
     width: 48% !important;
+  }
+
+  .content {
+    /* background-color: red; */
+    max-width: 600px !important;
+
+    margin-top: 1rem !important;
+  }
+
+  .heading {
+    font-size: 3rem !important;
+  }
+
+  .desc {
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .img {
+    padding: 0 2rem !important;
+  }
+
+  .copyright {
+    font-size: 0.85rem !important;
+    line-height: 1.4;
   }
 }
 
@@ -70,13 +120,9 @@
 }
 
 @media (max-width: 768px) {
-  /* #quote {
-    flex: 1 !important;
-  } */
-
-  /* .pomodore-timer {
-    flex: 1;
-  } */
+  .content {
+    margin-top: 1rem !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 846px) {
@@ -87,4 +133,15 @@
   .todo {
     width: 49% !important;
   }
+
+  .img {
+    padding: 0 2rem !important;
+  }
+}
+
+@media (min-width: 1525px) {
+img {
+  width: 100%;
+  height: auto;
+}
 }
