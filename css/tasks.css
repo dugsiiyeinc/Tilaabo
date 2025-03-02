@@ -15,26 +15,6 @@ body {
   position: relative;
 }
 
-#addBtn {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-
-  border: none;
-
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
-  text-align: center;
-
-  font-size: 2rem;
-  cursor: pointer;
-}
-
 .container-title {
   /* color: #2c2c2c; */
   color: #444;
@@ -63,6 +43,34 @@ body {
 #category-item:hover,
 #category-item:active {
   background-color: #62a265;
+}
+
+#form-box {
+  display: flex;
+  gap: 0.6rem;
+
+  margin-bottom: 1rem;
+}
+
+#btn-add {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+
+  background: none;
+  border: none;
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+.text-input {
+  flex: 1;
+  padding: 1rem 0.8rem;
+  outline: none;
+  font-size: 1rem;
 }
 
 /* Tasks */
