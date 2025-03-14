@@ -27,10 +27,20 @@ body {
   align-items: center;
 
   margin-bottom: 1.6rem;
+
+  overflow: scroll;
+  padding-bottom: 1rem;
 }
 
-#category-item:link,
-#category-item:visited {
+#category-item {
+  /* display: inline-block !important; */
+  /* width: auto !important; */
+}
+
+.category-item:link,
+#category-btn:link,
+#category-btn:visited,
+.category-item:visited {
   background-color: #99ca9b;
   padding: 0.6rem 1.2rem;
   border-radius: 30px;
@@ -40,9 +50,15 @@ body {
   color: #2d2d2d;
 }
 
-#category-item:hover,
-#category-item:active {
+.category-item:hover,
+#category-btn:hover,
+#category-btn:active,
+.category-item:active {
   background-color: #62a265;
+}
+
+.active {
+  background-color: red !important;
 }
 
 #form-box {

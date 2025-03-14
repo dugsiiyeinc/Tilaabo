@@ -348,14 +348,14 @@ header {
   /* flex-wrap: wrap; */
 }
 
-.todo {
+.box {
   width: 25%;
   /* background-color: blue; */
 
   border-radius: 12px;
 }
 
-#todo-btn {
+.box-btn {
   border: none;
   background: none;
   border: 1px solid #727d73;
@@ -365,7 +365,7 @@ header {
   cursor: pointer;
 }
 
-#todo-btn-top {
+.box-btn-top {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   padding: 0.6rem;
@@ -378,19 +378,19 @@ header {
   justify-content: space-between;
 }
 
-.todo-btn-btn {
+.box-btn-btn {
   width: 28px;
   height: 28px;
   border-radius: 50%;
 }
 
-.todo-btn-text {
+.box-btn-text {
   font-size: 1.2rem;
   font-weight: 500;
   color: #555d56;
 }
 
-.todo-card {
+.box-card {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
@@ -415,7 +415,7 @@ header {
   text-align: justify;
 }
 
-.todo-btn-bottom {
+.box-btn-bottom {
   width: 100%;
   padding: 12px 32px;
   border-radius: 8px;
